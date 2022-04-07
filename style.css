@@ -21,6 +21,13 @@ body{
      max-width: 410px;
      border-radius: 7px;
      padding: 16px 25px;
+<<<<<<< HEAD
+=======
+     transition: height 0.2s ease;
+ }
+ .wrapper.active{
+     height: 530px;
+>>>>>>> ramadom
  }
 header h1{
     font-size:21px;
@@ -34,7 +41,11 @@ header p{
     font-size: 16px;
 }
 .wrapper .form{
+<<<<<<< HEAD
     margin:20px 0 30px;
+=======
+    margin:20px 0 25px;
+>>>>>>> ramadom
 
 }
 .form :where(input,button){
@@ -68,4 +79,12 @@ border: 1px solid #999;
     align-items: center;
     justify-content: center;
     border: 1px solid #ccc;
+<<<<<<< HEAD
+=======
+}
+.wrapper.active .qr-code{
+    opacity: 1;
+    pointer-events: auto;
+    transition: opacity 0.5s 0.05s ease;
+>>>>>>> ramadom
 }
